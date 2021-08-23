@@ -82,13 +82,15 @@ p{
     transform: translateY(-5px);
 }
 .exclusive{
-    position: relative;
-    margin-left: 3cm;
+   display: flex;
+   border: 2px solid red;
+   flex-direction: column;
 }
-.exclusive small{
-    position: relative;
-    margin-left: 20cm;
+.exclusive img{
+    flex: 50%;
+    border: 2px solid green;
 }
+
 .exclusive img:hover{
 background-color: rgb(27, 9, 2);
 }
